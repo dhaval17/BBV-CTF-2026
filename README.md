@@ -1,9 +1,14 @@
 # BBV-CTF-2026
 Defcon 34 Bug Bounty Village CTF
 
+<img src="https://raw.githubusercontent.com/dhaval17/BBV-CTF-2026/refs/heads/main/Images/Front.jpg" alt="Front" width="600" height="600" />
+
 ##  Write-up: retrieving the flags from the firmware dump
 
 Using a Linux terminal, and using `avrdude` I was able to retrieve the firmware from the ATmega32 microcontroller on the PCB leveraging the 6 pinouts. I used a standard USBasp programmer for interface.
+
+<img src="https://raw.githubusercontent.com/dhaval17/BBV-CTF-2026/refs/heads/main/Images/Back.jpg" alt="Read" width="600" height="600" />
+<img src="https://github.com/dhaval17/BBV-CTF-2026/blob/main/Images/atmeag32-pinouts-1.png?raw=true" alt="Microcontroller" width="600" height="600" />
 
 ## 1. What got post firmware dump
 
@@ -118,6 +123,9 @@ There's no hashing or obfuscation: the flags are stored as plain immediate opera
 ## 8. Flags
 
 In the flags.md file
+
+<img src="https://github.com/dhaval17/BBV-CTF-2026/blob/main/Images/Solved-A.jpg?raw=true" alt="Solved-A" width="600" height="600" />
+<img src="https://github.com/dhaval17/BBV-CTF-2026/blob/main/Images/Solved-B.jpg?raw=true" alt="Solved-B" width="600" height="600" />
 
 ## 9. One-shot solver (no Ghidra needed)
 
