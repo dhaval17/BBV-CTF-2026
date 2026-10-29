@@ -125,7 +125,7 @@ There's no hashing or obfuscation: the flags are stored as plain immediate opera
 In the flags.md file
 
 <img src="https://github.com/dhaval17/BBV-CTF-2026/blob/main/Images/Solved-A.jpg?raw=true" alt="Solved-A" width="600" height="600" />
-<img src="https://github.com/dhaval17/BBV-CTF-2026/blob/main/Images/Solved-B.jpg?raw=true" alt="Solved-B" width="600" height="600" />
+<img src="https://github.com/dhaval17/BBV-CTF-2026/blob/main/Images/Solved-B.jpg?raw=true" alt="Solved-B" width="600" height="840" />
 
 ## 9. One-shot solver (no Ghidra needed)
 
